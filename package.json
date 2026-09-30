@@ -1,0 +1,14 @@
+{
+  "name": "discord-server-management",
+  "version": "1.0.0",
+  "description": "ai powered discord server management bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node src/deploy.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
